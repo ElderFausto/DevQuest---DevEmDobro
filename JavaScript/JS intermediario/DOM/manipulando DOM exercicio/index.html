@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando Document</title>
+  </head>
+  <body>
+    <h1>Posts</h1>
+
+    <article>
+      <p><strong>Èlder</strong>@elder - 10min</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias maxime
+        itaque quod quasi incidunt molestiae non ratione sed, veritatis
+        consequatur officiis, similique praesentium repellendus sint a porro
+        mollitia ullam debitis?
+      </p>
+      <br>
+      <div class="comentarios">
+        <h3>Comentarios</h3>
+
+        <input name="novo-comentario" placeholder="digite seu comentario" type="text">
+        <button onclick="addList()">Adicionar comentario</button>
+        <br>
+        <div id="novos-comentarios"></div>
+      </div>
+    </article>
+
+    <script src="index.js"></script>
+  </body>
+</html>
