@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando Document</title>
+    <style>
+      .font-grande {
+        font-size: 30px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Manipulando DOM2</h1>
+
+    <button onclick="alterarCorDeFundoP1()">Alterar cor de fundo P1</button>
+    <br>
+    <br>
+    <button onclick="aumentarFontP2()">Alterar cor de fundo P1</button>
+
+    <article class="post">
+      <p><strong>elder</strong>@fausto</p>
+      <p class="texto-post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aliquid
+        commodi consectetur tempora quos animi accusamus dolores aliquam
+        voluptas et deserunt modi, sequi provident voluptates hic illo nesciunt
+        quasi odio cum id eum repellat! Nulla rerum quam quae pariatur. Ipsa eos
+        reprehenderit blanditiis error similique cumque, aliquid totam sed eaque
+        ad pariatur accusantium cum nemo placeat, iure velit autem a, minus
+        aliquam animi sit nam! Reprehenderit tenetur dignissimos praesentium
+        facere enim cumque non architecto, quibusdam dolor temporibus quasi
+        nulla iste ipsam illo. Quas ab, harum quisquam sequi voluptates
+        excepturi facilis, quasi doloremque dicta temporibus molestias deleniti
+        aliquam amet, molestiae magnam.
+      </p>
+      <br />
+    </article>
+
+    <article class="post">
+      <p><strong>elder</strong><span>@fausto - 10 min</span></p>
+      <p class="texto-post">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sit deserunt
+        labore cum dicta vero tempora aut et hic, architecto temporibus
+        perspiciatis nihil sunt, soluta ab voluptatibus aperiam debitis incidunt
+        repellendus dolores accusamus officia! Maiores vero eius itaque corporis
+        id necessitatibus, officiis, nulla natus neque, voluptate ex dolore
+        iusto error earum porro dicta? Facilis delectus iure odit inventore
+        saepe est natus temporibus, ea ab ipsum optio accusamus consectetur quo
+        voluptatum magnam laboriosam velit illum sint ad incidunt itaque?
+        Veniam, quos?
+      </p>
+    </article>
+
+    <h2>Manipulando atributos</h2>
+
+    <button onclick="marcarRadio('F')">Marcar radio feminino</button>
+    <button onclick="marcarRadio('M')">Marcar radio masculino</button>
+    <br> <br>
+
+    Masculino <input type="radio" name="genero" id="genero-masculino">
+    <br>
+    Feminino <input type="radio" name="genero" id="genero-feminino">
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
