@@ -1,0 +1,17 @@
+{
+  "name": "calculo-exercicio-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "elder",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
